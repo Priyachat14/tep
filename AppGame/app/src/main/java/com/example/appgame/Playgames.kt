@@ -1,0 +1,11 @@
+package com.example.appgame
+
+import androidx.appcompat.app.AppCompatActivity
+import android.os.Bundle
+
+class Playgames : AppCompatActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_playgames)
+    }
+}
